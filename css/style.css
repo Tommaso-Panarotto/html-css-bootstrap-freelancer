@@ -1,1 +1,19 @@
+/*To remove*/
+body * {
+    border: 2px dashed;
+}
+
 /* Generics */
+header {
+    min-height: 80px;
+    border: 2px dashed #2C3E50;
+}
+
+/*header*/
+header .container {
+    height: 80px;
+}
+
+.row {
+    height: 100%;
+}
