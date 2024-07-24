@@ -9,6 +9,10 @@ header {
     border: 3px solid #2C3E50;
 }
 
+footer {
+    min-height: 400px;
+}
+
 /*Utils*/
 .p-container {
     max-width: 450px;
@@ -45,4 +49,18 @@ header .container {
 /*Contact*/
 .contact {
     min-height: 200px;
+}
+
+/*Footer*/
+
+/*info*/
+.info {
+    border: 3px solid #3A546D;
+    min-height: 300px;
+}
+
+/*Copyright*/
+.copyright {
+    border: 3px solid #2C3E50;
+    min-height: 100px;
 }
