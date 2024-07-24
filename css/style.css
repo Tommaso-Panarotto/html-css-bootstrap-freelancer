@@ -5,15 +5,26 @@ body * {
 
 /* Generics */
 header {
-    min-height: 80px;
-    border: 2px dashed #2C3E50;
+    min-height: 100px;
+    border: 3px solid #2C3E50;
 }
 
 /*header*/
 header .container {
-    height: 80px;
+    height: 100px;
 }
 
 .row {
     height: 100%;
+}
+
+/*Main*/
+.jumbotron {
+    border: 3px solid #1ABC9C;
+    min-height: 500px;
+}
+
+/*Gallery*/
+.gallery {
+    min-height: 400px;
 }
