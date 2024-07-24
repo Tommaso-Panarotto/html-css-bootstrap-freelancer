@@ -9,6 +9,13 @@ header {
     border: 3px solid #2C3E50;
 }
 
+/*Utils*/
+.p-container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
 /*header*/
 header .container {
     height: 100px;
@@ -27,4 +34,10 @@ header .container {
 /*Gallery*/
 .gallery {
     min-height: 400px;
+}
+
+/*About*/
+.about {
+    border: 3px solid #1ABC9C;
+    min-height: 500px;
 }
