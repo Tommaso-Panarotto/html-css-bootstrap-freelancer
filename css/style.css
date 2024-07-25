@@ -4,10 +4,6 @@ body * {
 }
 
 /* Generics */
-footer {
-    min-height: 400px;
-}
-
 img {
     width: 100%;
 }
@@ -44,12 +40,14 @@ img {
     background-color: #1ABC9C;
 }
 
+.bg-h-gray {
+    background-color: #3A546D;
+}
+
 /*Color*/
 .f-l-black {
     color: #2C3E50;
 }
-
-/*header*/
 
 /*Main*/
 #jumbotron img {
@@ -79,12 +77,11 @@ img {
 
 /*info*/
 #info {
-    border: 3px solid #3A546D;
     min-height: 300px;
 }
 
 /*Copyright*/
-.copyright {
+#copyright {
     border: 3px solid #2C3E50;
-    min-height: 100px;
+    height: 80px;
 }
