@@ -31,6 +31,7 @@ img {
 .line-star {
     border: 2px solid #2C3E50;
     width: 10%;
+    max-width: 130px;
     border-radius: 5px;
 }
 
@@ -51,9 +52,8 @@ img {
 /*header*/
 
 /*Main*/
-#jumbotron {
-    border: 3px solid #1ABC9C;
-    min-height: 500px;
+#jumbotron img {
+    width: 250px;
 }
 
 /*Gallery*/
