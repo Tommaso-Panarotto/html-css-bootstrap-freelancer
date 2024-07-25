@@ -1,60 +1,61 @@
 /*To remove*/
 body * {
-    border: 2px dashed;
+    color: white;
 }
 
 /* Generics */
-header {
-    min-height: 100px;
-    border: 3px solid #2C3E50;
-}
-
 footer {
     min-height: 400px;
 }
 
+img {
+    width: 100%;
+}
+
+/* NavBar*/
+#topbar a {
+    color: white;
+}
+
+.b-c-white {
+    border-color: white;
+}
+
 /*Utils*/
-.p-container {
-    max-width: 450px;
-    margin: 0 auto;
-    padding: 0 12px;
+
+/*BG Colors*/
+.bg-l-black {
+    background-color: #2C3E50;
 }
 
 /*header*/
-header .container {
-    height: 100px;
-}
-
-.row {
-    height: 100%;
-}
 
 /*Main*/
-.jumbotron {
+#jumbotron {
     border: 3px solid #1ABC9C;
     min-height: 500px;
 }
 
 /*Gallery*/
-.gallery {
+#portfolio {
     min-height: 400px;
 }
 
 /*About*/
-.about {
+#about {
     border: 3px solid #1ABC9C;
     min-height: 500px;
 }
 
 /*Contact*/
-.contact {
+#contact {
     min-height: 200px;
 }
 
 /*Footer*/
 
 /*info*/
-.info {
+#info {
     border: 3px solid #3A546D;
     min-height: 300px;
 }
