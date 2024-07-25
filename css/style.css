@@ -62,12 +62,6 @@ img {
     border-radius: 10px;
 }
 
-/*About*/
-#about {
-    border: 3px solid #1ABC9C;
-    min-height: 500px;
-}
-
 /*Contact*/
 #contact .form-control {
     border-width: 0 0 1px 0;
