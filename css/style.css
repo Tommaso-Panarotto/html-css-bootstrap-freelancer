@@ -49,6 +49,10 @@ img {
     color: #2C3E50;
 }
 
+.f-wgreen {
+    color: #1ABC9C;
+}
+
 /*Main*/
 #jumbotron img {
     width: 250px;
@@ -74,14 +78,12 @@ img {
 }
 
 /*Footer*/
-
 /*info*/
-#info {
-    min-height: 300px;
-}
-
-/*Copyright*/
-#copyright {
-    border: 3px solid #2C3E50;
-    height: 80px;
+#info a {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
 }
