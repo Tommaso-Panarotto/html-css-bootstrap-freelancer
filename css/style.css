@@ -22,10 +22,30 @@ img {
 }
 
 /*Utils*/
+.starh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-star {
+    border: 2px solid #2C3E50;
+    width: 10%;
+    border-radius: 5px;
+}
 
 /*BG Colors*/
 .bg-l-black {
     background-color: #2C3E50;
+}
+
+.bg-wgreen {
+    background-color: #1ABC9C;
+}
+
+/*Color*/
+.f-l-black {
+    color: #2C3E50;
 }
 
 /*header*/
@@ -48,8 +68,16 @@ img {
 }
 
 /*Contact*/
-#contact {
-    min-height: 200px;
+#contact .form-control {
+    border-width: 0 0 1px 0;
+    border-color: #CCCCCC;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+#contact ::placeholder {
+    color: #2C3E50;
+    font-weight: 500;
 }
 
 /*Footer*/
