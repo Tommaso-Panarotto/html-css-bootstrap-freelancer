@@ -56,9 +56,10 @@ img {
     width: 250px;
 }
 
-/*Gallery*/
-#portfolio {
-    min-height: 400px;
+/*Portfolio*/
+#portfolio img {
+    margin: 12px 0;
+    border-radius: 10px;
 }
 
 /*About*/
